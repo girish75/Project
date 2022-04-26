@@ -2,7 +2,10 @@ package stepdefination;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -12,48 +15,35 @@ import junit.framework.Assert;
 
 public class stepdefinationclass {
 	
-	
 	WebDriver driver = hooksclass.driver;
 	
-
-
 	@Given("User navigated to the Login page")
 	public void user_navigated_to_the_Login_page() {
-		
-		
-		driver.get("https://www.facebook.com/");
+	    // Login to portal
+		driver.get("http://retailm1.upskills.in/admin/index.php?route=common/dashboard&token=fOtazgcSDn3hST8dy4F1RPyPR15xQsnO");
 		driver.manage().window().maximize();
-		
-	    System.out.println("user is navigated to the login page");
-	    System.out.println("user is navigated to the login page");
+		    
 	}
 
 	@Given("Enter Username {string} and password {string}")
-	public void enter_Username_and_password(String un, String pw) throws InterruptedException {
-		
-		driver.findElement(By.id("email")).sendKeys(un);;
-		
-		driver.findElement(By.id("pass")).sendKeys(pw);
-		
-		driver.findElement(By.name("login")).click();
-		Thread.sleep(5000);
-		
-		String Expected = "Enter an email or phone number";
-		String actual = driver.findElement(By.id("")).getText();
-		
-		Assert.assertEquals(Expected, actual);
-		
-		
-		
-		//System.out.println("my user name is "+username+" and my password is "+password);
-	    
+	public void enter_Username_and_password(String username, String password) {
+	    // Enter username and password for login
+		System.out.println(password);
+	    driver.findElement(By.id("input-username")).sendKeys(username);
+	    driver.findElement(By.id("input-password")).sendKeys(password);
 	}
+
+	@Then("User should be able to login")
+	public void user_should_be_able_to_login() {
+	    // Click on Login Button
+		driver.findElement(By.xpath("//button[text()=' Login']")).click();
+		
+		WebDriverWait wait = new WebDriverWait(driver,10);
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h1[text()='Dashboard']")));
+		}
+
+
+
 	
-	@Then("Error message displayed")
-	public void error_message_displayed() {
-	   System.out.println("error message");
-	}
-
-
 
 }

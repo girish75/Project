@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.004971">
-<testcase classname="My Profile feature" name="Verify my profile page" time="0.004971">
-<system-out><![CDATA[Given User navigated to the Login page......................................skipped
-And click on My profile.....................................................skipped
-Then Error message displayed................................................skipped
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.107391">
+<testcase classname="Signin feature" name="Verify Login into portal" time="14.107391">
+<system-out><![CDATA[Given User navigated to the Login page......................................passed
+And Enter Username "admin" and password "Admin@123".........................passed
+Then User should be able to login...........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

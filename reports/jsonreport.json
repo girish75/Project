@@ -3,27 +3,27 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-04-26T04:24:46.645Z",
+        "start_timestamp": "2022-04-26T14:58:24.143Z",
         "before": [
           {
             "result": {
-              "duration": 1131100,
-              "status": "skipped"
+              "duration": 6618712400,
+              "status": "passed"
             },
             "match": {
               "location": "hooksclass.init()"
             }
           }
         ],
-        "line": 5,
-        "name": "Verify my profile page",
+        "line": 11,
+        "name": "Verify Login into portal",
         "description": "",
-        "id": "my-profile-feature;verify-my-profile-page",
+        "id": "signin-feature;verify-login-into-portal;;2",
         "after": [
           {
             "result": {
-              "duration": 25800,
-              "status": "skipped"
+              "duration": 1186608500,
+              "status": "passed"
             },
             "match": {
               "location": "hooksclass.afterannotation()"
@@ -31,14 +31,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 69500,
-              "status": "skipped"
+              "duration": 3318481200,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "User navigated to the Login page",
             "match": {
               "location": "stepdefinationclass.user_navigated_to_the_Login_page()"
@@ -47,36 +47,46 @@
           },
           {
             "result": {
-              "duration": 13400,
-              "status": "skipped"
+              "duration": 666643100,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "click on My profile",
+            "line": 6,
+            "name": "Enter Username \"admin\" and password \"Admin@123\"",
             "match": {
-              "location": "myprofilestepdefination.click_on_My_profile()"
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Admin@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefinationclass.enter_Username_and_password(String,String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 7900,
-              "status": "skipped"
+              "duration": 2307157600,
+              "status": "passed"
             },
-            "line": 8,
-            "name": "Error message displayed",
+            "line": 7,
+            "name": "User should be able to login",
             "match": {
-              "location": "stepdefinationclass.error_message_displayed()"
+              "location": "stepdefinationclass.user_should_be_able_to_login()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "My Profile feature",
-    "description": "  i want to access the options under myprofile",
-    "id": "my-profile-feature",
+    "name": "Signin feature",
+    "description": "  I want to signin in my portal",
+    "id": "signin-feature",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/myprofile.feature",
+    "uri": "file:src/test/java/features/login.feature",
     "tags": []
   }
 ]

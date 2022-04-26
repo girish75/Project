@@ -1,21 +1,21 @@
 package testrunner;
-import org.testng.annotations.Test;
+import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
-//import cucumber.api.junit.Cucumber;
+import cucumber.api.junit.Cucumber;
 
-//@RunWith(Cucumber.class)
+
+@RunWith(Cucumber.class)
 @CucumberOptions(
 features = "src/test/java/features",
 glue = {"stepdefination","hooks"},
 monochrome = true,
-dryRun = true,
+dryRun = false,
 //tags = {"@Regression","@Smoke"},  //Tags using AND Condition
 //tags = {"@Regression,@Smoke"}, //Tags using OR condition
-tags = {"~@Regression"},  //Skips the Tag
+//tags = {"~@Regression"},  //Skips the Tag
 plugin = {"pretty","html:reports/htmlreport","json:reports/jsonreport.json","junit:reports/xmlreport.xml"})
 
-@Test
-public class TestRunner extends AbstractTestNGCucumberTests{
+
+public class TestRunner {
 
 }
