@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.107391">
-<testcase classname="Signin feature" name="Verify Login into portal" time="14.107391">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="77.752017">
+<testcase classname="Login feature" name="Add Coupons" time="77.752017">
 <system-out><![CDATA[Given User navigated to the Login page......................................passed
 And Enter Username "admin" and password "Admin@123".........................passed
 Then User should be able to login...........................................passed
+When Click on side menu button..............................................passed
+And click on the coupons button.............................................passed
+Then User should be able to navigate to Coupons page........................passed
+Given User is in the Coupons page and click on Add Coupon button............passed
+When Add Coupon details and click save......................................passed
+And Verify the added Coupon.................................................passed
+And Click Edit the added Coupon.............................................passed
+And Verify the Edited coupon in coupon list.................................passed
+And Delete the coupon.......................................................passed
+Then Couple should get deleted..............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

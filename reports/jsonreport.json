@@ -3,39 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-04-26T14:58:24.143Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6618712400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooksclass.init()"
-            }
-          }
-        ],
-        "line": 11,
+        "line": 4,
         "name": "Verify Login into portal",
         "description": "",
-        "id": "signin-feature;verify-login-into-portal;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 1186608500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooksclass.afterannotation()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 3318481200,
+              "duration": 3177073000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 666643100,
+              "duration": 206838100,
               "status": "passed"
             },
             "line": 6,
@@ -69,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 2307157600,
+              "duration": 1381297900,
               "status": "passed"
             },
             "line": 7,
@@ -78,13 +54,166 @@
               "location": "stepdefinationclass.user_should_be_able_to_login()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3099378400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on side menu button",
+            "match": {
+              "location": "stepdefinationclass.click_on_side_menu_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3933411600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on the coupons button",
+            "match": {
+              "location": "stepdefinationclass.click_on_the_coupons_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30204500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to navigate to Coupons page",
+            "match": {
+              "location": "stepdefinationclass.user_should_be_able_to_navigate_to_Coupons_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-28T15:49:15.632Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3661599100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Add Coupons",
+        "description": "",
+        "id": "login-feature;add-coupons",
+        "after": [
+          {
+            "result": {
+              "duration": 770763900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.afterannotation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 562023000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is in the Coupons page and click on Add Coupon button",
+            "match": {
+              "location": "stepdefinationclass.user_is_in_the_Coupons_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4166257600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Add Coupon details and click save",
+            "match": {
+              "location": "stepdefinationclass.add_Coupon_details_and_click_save()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3100472000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify the added Coupon",
+            "match": {
+              "location": "stepdefinationclass.verify_the_added_Coupon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10263677600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click Edit the added Coupon",
+            "match": {
+              "location": "stepdefinationclass.click_Edit_the_added_Coupon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3092276600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify the Edited coupon in coupon list",
+            "match": {
+              "location": "stepdefinationclass.verify_the_Edited_coupon_in_coupon_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40242807500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Delete the coupon",
+            "match": {
+              "location": "stepdefinationclass.delete_the_coupon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57941500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Couple should get deleted",
+            "match": {
+              "location": "stepdefinationclass.couple_should_get_deleted()"
+            },
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Signin feature",
+    "name": "Login feature",
     "description": "  I want to signin in my portal",
-    "id": "signin-feature",
+    "id": "login-feature",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/login.feature",
     "tags": []
