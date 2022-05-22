@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="IBM_FST.PetStore.UserAPIJsonStringTest">
+        <methods>
+          <include name="getUsers"/>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="postUsers"/>
+          <include name="deleteUsers"/>
+          <include name="putUsers" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- IBM_FST.PetStore.UserAPIJsonStringTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

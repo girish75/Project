@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="12" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986698"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : 200 Actual Response value : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : unknown Actual Response value : unknown]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+{
+    "id": 6874986698,
+    "username": "CreatedUserFromFile",
+    "firstName": "Prithiga",
+    "lastName": "Raju",
+    "email": "prithiga@gmail.com",
+    "password": "password1234",
+    "phone": "187624242",
+    "userStatus": 0
+}]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : CreatedUserFromFile Actual Response value : CreatedUserFromFile]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : Prithiga Actual Response value : Prithiga]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : prithiga@gmail.com Actual Response value : prithiga@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986699"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : 200 Actual Response value : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : unknown Actual Response value : unknown]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "CreatedUserFromFile"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986700"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : 200 Actual Response value : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : unknown Actual Response value : unknown]]>
+    </line>
+    <line>
+      <![CDATA[User API Get]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+{
+    "id": 6874986581,
+    "username": "CreatedUser",
+    "firstName": "Prithiga",
+    "lastName": "Raju",
+    "email": "prithiga@gmail.com",
+    "password": "password",
+    "phone": "123456789",
+    "userStatus": 0
+}]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : CreatedUser Actual Response value : CreatedUser]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : Prithiga Actual Response value : Prithiga]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : prithiga@gmail.com Actual Response value : prithiga@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[User API Put]]>
+    </line>
+    <line>
+      <![CDATA[{
+ "username": "UserName_Edited",
+  "firstName": "edit_firstname",
+  "lastName": "edit_lastname",
+  "email": "edit@email.com",
+  "password": "passnew",
+  "phone": "123456789",
+  "userStatus": 0
+}]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986701"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : 200 Actual Response value : 200]]>
+    </line>
+    <line>
+      <![CDATA[Expected Response Value : unknown Actual Response value : unknown]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "CreatedUser"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1</message>
+  <type>unknown</type>
+</apiResponse>]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 404 Actual Status code : 404]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse>]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 404 Actual Status code : 404]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse>]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 404 Actual Status code : 404]]>
+    </line>
+    <line>
+      <![CDATA[Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse>]]>
+    </line>
+    <line>
+      <![CDATA[Expected Status code : 404 Actual Status code : 404]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-18T05:22:42Z" name="Suite" finished-at="2022-05-18T05:23:09Z" duration-ms="26919">
+    <groups>
+    </groups>
+    <test started-at="2022-05-18T05:22:42Z" name="Test" finished-at="2022-05-18T05:23:09Z" duration-ms="26919">
+      <class name="IBM_FST.PetStore.UserApiJsonFileTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:42Z" name="setupSuite" finished-at="2022-05-18T05:22:42Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:43Z" name="setup" finished-at="2022-05-18T05:22:44Z" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:44Z" name="postUsers" data-provider="RequestData" finished-at="2022-05-18T05:22:47Z" duration-ms="3385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CreatedUserFromFile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPost.json]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPut.json]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986698"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : 200 Actual Response value : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : unknown Actual Response value : unknown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postUsers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:47Z" name="setup" finished-at="2022-05-18T05:22:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:47Z" name="getUsers" data-provider="RequestData" finished-at="2022-05-18T05:22:49Z" depends-on-methods="IBM_FST.PetStore.UserApiJsonFileTest.postUsers" duration-ms="2429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CreatedUserFromFile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPost.json]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPut.json]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+{
+    "id": 6874986698,
+    "username": "CreatedUserFromFile",
+    "firstName": "Prithiga",
+    "lastName": "Raju",
+    "email": "prithiga@gmail.com",
+    "password": "password1234",
+    "phone": "187624242",
+    "userStatus": 0
+}]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : CreatedUserFromFile Actual Response value : CreatedUserFromFile]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : Prithiga Actual Response value : Prithiga]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : prithiga@gmail.com Actual Response value : prithiga@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:49Z" name="setup" finished-at="2022-05-18T05:22:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="putUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:49Z" name="putUsers" data-provider="RequestData" finished-at="2022-05-18T05:22:52Z" depends-on-methods="IBM_FST.PetStore.UserApiJsonFileTest.getUsers" duration-ms="2184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CreatedUserFromFile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPost.json]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPut.json]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986699"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : 200 Actual Response value : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : unknown Actual Response value : unknown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- putUsers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:52Z" name="setup" finished-at="2022-05-18T05:22:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserApiJsonFileTest@68f4865]" started-at="2022-05-18T05:22:52Z" name="deleteUsers" data-provider="RequestData" finished-at="2022-05-18T05:22:54Z" depends-on-methods="IBM_FST.PetStore.UserApiJsonFileTest.putUsers" duration-ms="1971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CreatedUserFromFile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPost.json]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPut.json]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "CreatedUserFromFile"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUsers -->
+      </class> <!-- IBM_FST.PetStore.UserApiJsonFileTest -->
+      <class name="IBM_FST.PetStore.UserAPIJsonStringTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserAPIJsonStringTest@4816278d]" started-at="2022-05-18T05:22:54Z" name="setup" finished-at="2022-05-18T05:22:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserAPIJsonStringTest@4816278d]" started-at="2022-05-18T05:22:54Z" name="postUsers" data-provider="RequestData" finished-at="2022-05-18T05:22:56Z" duration-ms="1954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CreatedUser]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{\n  \"username\": \"CreatedUser\",\n  \"firstName\": \"Prithiga\",\n  \"lastName\": \"Raju\",\n  \"email\": \"prithiga@gmail.com\",\n  \"password\": \"password\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[{\n \"username\": \"UserName_Edited\",\n  \"firstName\": \"edit_firstname\",\n  \"lastName\": \"edit_lastname\",\n  \"email\": \"edit@email.com\",\n  \"password\": \"passnew\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986700"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : 200 Actual Response value : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : unknown Actual Response value : unknown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postUsers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserAPIJsonStringTest@4816278d]" started-at="2022-05-18T05:22:56Z" name="setup" finished-at="2022-05-18T05:22:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserAPIJsonStringTest@4816278d]" started-at="2022-05-18T05:22:56Z" name="getUsers" data-provider="RequestData" finished-at="2022-05-18T05:22:57Z" depends-on-methods="IBM_FST.PetStore.UserAPIJsonStringTest.postUsers" duration-ms="1729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CreatedUser]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{\n  \"username\": \"CreatedUser\",\n  \"firstName\": \"Prithiga\",\n  \"lastName\": \"Raju\",\n  \"email\": \"prithiga@gmail.com\",\n  \"password\": \"password\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[{\n \"username\": \"UserName_Edited\",\n  \"firstName\": \"edit_firstname\",\n  \"lastName\": \"edit_lastname\",\n  \"email\": \"edit@email.com\",\n  \"password\": \"passnew\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User API Get]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+            </line>
+            <line>
+              <![CDATA[Response :
+{
+    "id": 6874986581,
+    "username": "CreatedUser",
+    "firstName": "Prithiga",
+    "lastName": "Raju",
+    "email": "prithiga@gmail.com",
+    "password": "password",
+    "phone": "123456789",
+    "userStatus": 0
+}]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : CreatedUser Actual Response value : CreatedUser]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : Prithiga Actual Response value : Prithiga]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : prithiga@gmail.com Actual Response value : prithiga@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method signature="putUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserAPIJsonStringTest@4816278d]" started-at="2022-05-18T05:22:57Z" name="putUsers" data-provider="RequestData" finished-at="2022-05-18T05:22:59Z" depends-on-methods="IBM_FST.PetStore.UserAPIJsonStringTest.getUsers" duration-ms="1687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CreatedUser]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{\n  \"username\": \"CreatedUser\",\n  \"firstName\": \"Prithiga\",\n  \"lastName\": \"Raju\",\n  \"email\": \"prithiga@gmail.com\",\n  \"password\": \"password\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[{\n \"username\": \"UserName_Edited\",\n  \"firstName\": \"edit_firstname\",\n  \"lastName\": \"edit_lastname\",\n  \"email\": \"edit@email.com\",\n  \"password\": \"passnew\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User API Put]]>
+            </line>
+            <line>
+              <![CDATA[{
+ "username": "UserName_Edited",
+  "firstName": "edit_firstname",
+  "lastName": "edit_lastname",
+  "email": "edit@email.com",
+  "password": "passnew",
+  "phone": "123456789",
+  "userStatus": 0
+}]]>
+            </line>
+            <line>
+              <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986701"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : 200 Actual Response value : 200]]>
+            </line>
+            <line>
+              <![CDATA[Expected Response Value : unknown Actual Response value : unknown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- putUsers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserAPIJsonStringTest@4816278d]" started-at="2022-05-18T05:22:57Z" name="setup" finished-at="2022-05-18T05:22:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserAPIJsonStringTest@4816278d]" started-at="2022-05-18T05:22:59Z" name="setup" finished-at="2022-05-18T05:22:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserAPIJsonStringTest@4816278d]" started-at="2022-05-18T05:22:59Z" name="deleteUsers" data-provider="RequestData" finished-at="2022-05-18T05:23:01Z" depends-on-methods="IBM_FST.PetStore.UserAPIJsonStringTest.putUsers" duration-ms="1782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CreatedUser]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{\n  \"username\": \"CreatedUser\",\n  \"firstName\": \"Prithiga\",\n  \"lastName\": \"Raju\",\n  \"email\": \"prithiga@gmail.com\",\n  \"password\": \"password\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[{\n \"username\": \"UserName_Edited\",\n  \"firstName\": \"edit_firstname\",\n  \"lastName\": \"edit_lastname\",\n  \"email\": \"edit@email.com\",\n  \"password\": \"passnew\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "CreatedUser"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 200 Actual Status code : 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUsers -->
+      </class> <!-- IBM_FST.PetStore.UserAPIJsonStringTest -->
+      <class name="IBM_FST.PetStore.UserApiNegativeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserApiNegativeTest@4eaf3684]" started-at="2022-05-18T05:23:01Z" name="setup" finished-at="2022-05-18T05:23:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserApiNegativeTest@4eaf3684]" started-at="2022-05-18T05:23:01Z" name="postUsers" data-provider="RequestData" finished-at="2022-05-18T05:23:03Z" duration-ms="1850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Create!@FDUserFromFile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPost.json]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPut.json]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1</message>
+  <type>unknown</type>
+</apiResponse>]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 404 Actual Status code : 404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postUsers -->
+        <test-method signature="getUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserApiNegativeTest@4eaf3684]" started-at="2022-05-18T05:23:03Z" name="getUsers" data-provider="RequestData" finished-at="2022-05-18T05:23:05Z" depends-on-methods="IBM_FST.PetStore.UserApiNegativeTest.postUsers" duration-ms="2409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Create!@FDUserFromFile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPost.json]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPut.json]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse>]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 404 Actual Status code : 404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserApiNegativeTest@4eaf3684]" started-at="2022-05-18T05:23:03Z" name="setup" finished-at="2022-05-18T05:23:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="putUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserApiNegativeTest@4eaf3684]" started-at="2022-05-18T05:23:05Z" name="putUsers" data-provider="RequestData" finished-at="2022-05-18T05:23:07Z" depends-on-methods="IBM_FST.PetStore.UserApiNegativeTest.getUsers" duration-ms="2222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Create!@FDUserFromFile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPost.json]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPut.json]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse>]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 404 Actual Status code : 404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- putUsers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserApiNegativeTest@4eaf3684]" started-at="2022-05-18T05:23:05Z" name="setup" finished-at="2022-05-18T05:23:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:IBM_FST.PetStore.UserApiNegativeTest@4eaf3684]" started-at="2022-05-18T05:23:07Z" name="setup" finished-at="2022-05-18T05:23:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteUsers(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM_FST.PetStore.UserApiNegativeTest@4eaf3684]" started-at="2022-05-18T05:23:07Z" name="deleteUsers" data-provider="RequestData" finished-at="2022-05-18T05:23:09Z" depends-on-methods="IBM_FST.PetStore.UserApiNegativeTest.putUsers" duration-ms="1921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42c28305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/user1/{username}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Create!@FDUserFromFile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPost.json]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\\src\\test\\java\\resources\\UserAPIRequestPut.json]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse>]]>
+            </line>
+            <line>
+              <![CDATA[Expected Status code : 404 Actual Status code : 404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUsers -->
+      </class> <!-- IBM_FST.PetStore.UserApiNegativeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

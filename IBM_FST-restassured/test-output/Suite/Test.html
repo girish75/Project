@@ -1,0 +1,326 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 18 10:52:42 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26919 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='IBM_FST.PetStore.UserApiJsonFileTest.deleteUsers()'><b>deleteUsers</b><br>Test class: IBM_FST.PetStore.UserApiJsonFileTest<br>Parameters: org.testng.TestRunner@42c28305, /user, /user/{username}, /user/{username}, /user/{username}, CreatedUserFromFile, .\\src\\test\\java\\resources\\UserAPIRequestPost.json, .\\src\\test\\java\\resources\\UserAPIRequestPut.json, 200<br/>
+<a href="#Output-1757252775" onClick='toggleBox("Output-1757252775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1757252775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1757252775">
+Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "CreatedUserFromFile"
+}<br/>
+Expected Status code : 200 Actual Status code : 200<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>IBM_FST.PetStore.UserApiJsonFileTest@68f4865</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserAPIJsonStringTest.deleteUsers()'><b>deleteUsers</b><br>Test class: IBM_FST.PetStore.UserAPIJsonStringTest<br>Parameters: org.testng.TestRunner@42c28305, /user, /user/{username}, /user/{username}, /user/{username}, CreatedUser, {\n  \"username\": \"CreatedUser\",\n  \"firstName\": \"Prithiga\",\n  \"lastName\": \"Raju\",\n  \"email\": \"prithiga@gmail.com\",\n  \"password\": \"password\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}, {\n \"username\": \"UserName_Edited\",\n  \"firstName\": \"edit_firstname\",\n  \"lastName\": \"edit_lastname\",\n  \"email\": \"edit@email.com\",\n  \"password\": \"passnew\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}, 200<br/>
+<a href="#Output-584720398" onClick='toggleBox("Output-584720398", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-584720398" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-584720398">
+Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "CreatedUser"
+}<br/>
+Expected Status code : 200 Actual Status code : 200<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>IBM_FST.PetStore.UserAPIJsonStringTest@4816278d</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserApiNegativeTest.deleteUsers()'><b>deleteUsers</b><br>Test class: IBM_FST.PetStore.UserApiNegativeTest<br>Parameters: org.testng.TestRunner@42c28305, /user1, /user1/{username}, /user1/{username}, /user1/{username}, Create!@FDUserFromFile, .\\src\\test\\java\\resources\\UserAPIRequestPost.json, .\\src\\test\\java\\resources\\UserAPIRequestPut.json, 404<br/>
+<a href="#Output-564569236" onClick='toggleBox("Output-564569236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-564569236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-564569236">
+Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse><br/>
+Expected Status code : 404 Actual Status code : 404<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>IBM_FST.PetStore.UserApiNegativeTest@4eaf3684</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserApiJsonFileTest.getUsers()'><b>getUsers</b><br>Test class: IBM_FST.PetStore.UserApiJsonFileTest<br>Parameters: org.testng.TestRunner@42c28305, /user, /user/{username}, /user/{username}, /user/{username}, CreatedUserFromFile, .\\src\\test\\java\\resources\\UserAPIRequestPost.json, .\\src\\test\\java\\resources\\UserAPIRequestPut.json, 200<br/>
+<a href="#Output-542475071" onClick='toggleBox("Output-542475071", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-542475071" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-542475071">
+Response :
+{
+    "id": 6874986698,
+    "username": "CreatedUserFromFile",
+    "firstName": "Prithiga",
+    "lastName": "Raju",
+    "email": "prithiga@gmail.com",
+    "password": "password1234",
+    "phone": "187624242",
+    "userStatus": 0
+}<br/>
+Expected Status code : 200 Actual Status code : 200<br/>
+Expected Response Value : CreatedUserFromFile Actual Response value : CreatedUserFromFile<br/>
+Expected Response Value : Prithiga Actual Response value : Prithiga<br/>
+Expected Response Value : prithiga@gmail.com Actual Response value : prithiga@gmail.com<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>IBM_FST.PetStore.UserApiJsonFileTest@68f4865</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserAPIJsonStringTest.getUsers()'><b>getUsers</b><br>Test class: IBM_FST.PetStore.UserAPIJsonStringTest<br>Parameters: org.testng.TestRunner@42c28305, /user, /user/{username}, /user/{username}, /user/{username}, CreatedUser, {\n  \"username\": \"CreatedUser\",\n  \"firstName\": \"Prithiga\",\n  \"lastName\": \"Raju\",\n  \"email\": \"prithiga@gmail.com\",\n  \"password\": \"password\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}, {\n \"username\": \"UserName_Edited\",\n  \"firstName\": \"edit_firstname\",\n  \"lastName\": \"edit_lastname\",\n  \"email\": \"edit@email.com\",\n  \"password\": \"passnew\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}, 200<br/>
+<a href="#Output-685438214" onClick='toggleBox("Output-685438214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-685438214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-685438214">
+User API Get<br/>
+Expected Status code : 200 Actual Status code : 200<br/>
+Response :
+{
+    "id": 6874986581,
+    "username": "CreatedUser",
+    "firstName": "Prithiga",
+    "lastName": "Raju",
+    "email": "prithiga@gmail.com",
+    "password": "password",
+    "phone": "123456789",
+    "userStatus": 0
+}<br/>
+Expected Response Value : CreatedUser Actual Response value : CreatedUser<br/>
+Expected Response Value : Prithiga Actual Response value : Prithiga<br/>
+Expected Response Value : prithiga@gmail.com Actual Response value : prithiga@gmail.com<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>IBM_FST.PetStore.UserAPIJsonStringTest@4816278d</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserApiNegativeTest.getUsers()'><b>getUsers</b><br>Test class: IBM_FST.PetStore.UserApiNegativeTest<br>Parameters: org.testng.TestRunner@42c28305, /user1, /user1/{username}, /user1/{username}, /user1/{username}, Create!@FDUserFromFile, .\\src\\test\\java\\resources\\UserAPIRequestPost.json, .\\src\\test\\java\\resources\\UserAPIRequestPut.json, 404<br/>
+<a href="#Output-212158113" onClick='toggleBox("Output-212158113", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-212158113" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-212158113">
+Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse><br/>
+Expected Status code : 404 Actual Status code : 404<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>IBM_FST.PetStore.UserApiNegativeTest@4eaf3684</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserApiJsonFileTest.postUsers()'><b>postUsers</b><br>Test class: IBM_FST.PetStore.UserApiJsonFileTest<br>Parameters: org.testng.TestRunner@42c28305, /user, /user/{username}, /user/{username}, /user/{username}, CreatedUserFromFile, .\\src\\test\\java\\resources\\UserAPIRequestPost.json, .\\src\\test\\java\\resources\\UserAPIRequestPut.json, 200<br/>
+<a href="#Output-1519927539" onClick='toggleBox("Output-1519927539", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1519927539" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1519927539">
+Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986698"
+}<br/>
+Expected Status code : 200 Actual Status code : 200<br/>
+Expected Response Value : 200 Actual Response value : 200<br/>
+Expected Response Value : unknown Actual Response value : unknown<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>IBM_FST.PetStore.UserApiJsonFileTest@68f4865</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserAPIJsonStringTest.postUsers()'><b>postUsers</b><br>Test class: IBM_FST.PetStore.UserAPIJsonStringTest<br>Parameters: org.testng.TestRunner@42c28305, /user, /user/{username}, /user/{username}, /user/{username}, CreatedUser, {\n  \"username\": \"CreatedUser\",\n  \"firstName\": \"Prithiga\",\n  \"lastName\": \"Raju\",\n  \"email\": \"prithiga@gmail.com\",\n  \"password\": \"password\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}, {\n \"username\": \"UserName_Edited\",\n  \"firstName\": \"edit_firstname\",\n  \"lastName\": \"edit_lastname\",\n  \"email\": \"edit@email.com\",\n  \"password\": \"passnew\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}, 200<br/>
+<a href="#Output-302905744" onClick='toggleBox("Output-302905744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-302905744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-302905744">
+Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986700"
+}<br/>
+Expected Status code : 200 Actual Status code : 200<br/>
+Expected Response Value : 200 Actual Response value : 200<br/>
+Expected Response Value : unknown Actual Response value : unknown<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>IBM_FST.PetStore.UserAPIJsonStringTest@4816278d</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserApiNegativeTest.postUsers()'><b>postUsers</b><br>Test class: IBM_FST.PetStore.UserApiNegativeTest<br>Parameters: org.testng.TestRunner@42c28305, /user1, /user1/{username}, /user1/{username}, /user1/{username}, Create!@FDUserFromFile, .\\src\\test\\java\\resources\\UserAPIRequestPost.json, .\\src\\test\\java\\resources\\UserAPIRequestPut.json, 404<br/>
+<a href="#Output-161237395" onClick='toggleBox("Output-161237395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-161237395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-161237395">
+Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1</message>
+  <type>unknown</type>
+</apiResponse><br/>
+Expected Status code : 404 Actual Status code : 404<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>IBM_FST.PetStore.UserApiNegativeTest@4eaf3684</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserApiJsonFileTest.putUsers()'><b>putUsers</b><br>Test class: IBM_FST.PetStore.UserApiJsonFileTest<br>Parameters: org.testng.TestRunner@42c28305, /user, /user/{username}, /user/{username}, /user/{username}, CreatedUserFromFile, .\\src\\test\\java\\resources\\UserAPIRequestPost.json, .\\src\\test\\java\\resources\\UserAPIRequestPut.json, 200<br/>
+<a href="#Output-1824819735" onClick='toggleBox("Output-1824819735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1824819735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1824819735">
+Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986699"
+}<br/>
+Expected Status code : 200 Actual Status code : 200<br/>
+Expected Response Value : 200 Actual Response value : 200<br/>
+Expected Response Value : unknown Actual Response value : unknown<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>IBM_FST.PetStore.UserApiJsonFileTest@68f4865</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserAPIJsonStringTest.putUsers()'><b>putUsers</b><br>Test class: IBM_FST.PetStore.UserAPIJsonStringTest<br>Parameters: org.testng.TestRunner@42c28305, /user, /user/{username}, /user/{username}, /user/{username}, CreatedUser, {\n  \"username\": \"CreatedUser\",\n  \"firstName\": \"Prithiga\",\n  \"lastName\": \"Raju\",\n  \"email\": \"prithiga@gmail.com\",\n  \"password\": \"password\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}, {\n \"username\": \"UserName_Edited\",\n  \"firstName\": \"edit_firstname\",\n  \"lastName\": \"edit_lastname\",\n  \"email\": \"edit@email.com\",\n  \"password\": \"passnew\",\n  \"phone\": \"123456789\",\n  \"userStatus\": 0\n}, 200<br/>
+<a href="#Output-1688277354" onClick='toggleBox("Output-1688277354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1688277354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1688277354">
+User API Put<br/>
+{
+ "username": "UserName_Edited",
+  "firstName": "edit_firstname",
+  "lastName": "edit_lastname",
+  "email": "edit@email.com",
+  "password": "passnew",
+  "phone": "123456789",
+  "userStatus": 0
+}<br/>
+Response :
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6874986701"
+}<br/>
+Expected Status code : 200 Actual Status code : 200<br/>
+Expected Response Value : 200 Actual Response value : 200<br/>
+Expected Response Value : unknown Actual Response value : unknown<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>IBM_FST.PetStore.UserAPIJsonStringTest@4816278d</td></tr>
+<tr>
+<td title='IBM_FST.PetStore.UserApiNegativeTest.putUsers()'><b>putUsers</b><br>Test class: IBM_FST.PetStore.UserApiNegativeTest<br>Parameters: org.testng.TestRunner@42c28305, /user1, /user1/{username}, /user1/{username}, /user1/{username}, Create!@FDUserFromFile, .\\src\\test\\java\\resources\\UserAPIRequestPost.json, .\\src\\test\\java\\resources\\UserAPIRequestPut.json, 404<br/>
+<a href="#Output-1956358668" onClick='toggleBox("Output-1956358668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1956358668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1956358668">
+Response :
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/user1/Create%21%40FDUserFromFile</message>
+  <type>unknown</type>
+</apiResponse><br/>
+Expected Status code : 404 Actual Status code : 404<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>IBM_FST.PetStore.UserApiNegativeTest@4eaf3684</td></tr>
+</table><p>
+</body>
+</html>
